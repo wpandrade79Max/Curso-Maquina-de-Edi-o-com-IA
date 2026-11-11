@@ -1,0 +1,31 @@
+# Dependências e caches
+node_modules/
+.cache/
+.remotion/
+dist/
+build/
+
+# Renders e arquivos temporários
+renders/*
+out/
+tmp/
+*.log
+
+# Mídia pesada: manter no Google Drive e copiar somente quando necessário
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.wav
+*.flac
+
+# Arquivos do sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Manter marcadores das pastas vazias
+!.gitkeep
